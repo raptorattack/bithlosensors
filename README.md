@@ -1,12 +1,16 @@
 of# bithlosensors
+
 -Raspberry Pi python script for reading/broadcasting sensor information, taking pictures, and feeding fish
+
 -Arduino code for feeding fish and relaying the message of success to the Raspberry Pi main hub
 
 
 ///////////////////////////////////////////
+
 UPDATE 9-24-17
 
 I have uploaded the Arduino code for the first of two (identical) feeder nodes, the second of which will simply have a different ID. I have added communication via WiFi using MQTT to allow the nodes to notify the main hub that they have successfully fed the fish. The code is nearly complete as I have enabled communication but not yet added the "notify" feature implementation.
+
 ///////////////////////////////////////////
 
 
