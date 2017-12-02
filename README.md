@@ -4,6 +4,11 @@ of# bithlosensors
 
 -Arduino code for feeding fish and relaying the message of success to the Raspberry Pi main hub
 
+///////////////////////////////////////////
+
+UPDATE 12-1-17
+
+The MQTT portion of the code is now fully functional and the system can operate up to two remote feeders at a time. Remote feeders should be plugged in first (since they only dispense food when the main hub says so). I have also added a layer of error prevention by pinging a website to check for a connection to the web before attempting to post to twitter. Photo brightness is boosted to 4.0 in attempt to optimize quality for dark lighting. A later software version may incorporate either infrared or visible LED lights on a relay if no ambient lights are added to the fish tanks.
 
 ///////////////////////////////////////////
 
