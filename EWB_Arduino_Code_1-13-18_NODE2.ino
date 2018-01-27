@@ -20,7 +20,7 @@
 //GLOBAL Variables
 //Wifi and MQTT Credentials:
 const char* ssid     = "EWBAquaponics";
-const char* password = "3ngineertheFuture";
+const char* password = "***"; //redacted
 const char* mqtt_server = "192.168.1.125";
 const char* mqtt_topic_pub = "EWBAqua_Node2";
 const char* mqtt_topic_sub = "EWBAqua_Node_Feedsignal_2";
