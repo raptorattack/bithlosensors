@@ -8,11 +8,7 @@ of# bithlosensors
 
 UPDATE 12-8-19
 
-Updated the code with the following changes:
--restructured code to make it modular
--removed the two-way ping system for feeding the fish, the hub only receives notification that the nodes have fed
--node "fed" notifications are now handled on a separate function, Twitter updates are pushed independently of the hub feeding time
--will update the arduino code to meet the new specs
+Restructured code to make it modular. Removed the two-way ping system for feeding the fish, the hub only receives notification that the nodes have fed. Node "fed" notifications are now handled on a separate function, Twitter updates are pushed independently of the hub feeding time. Will update the arduino code to meet the new specs.
 
 ///////////////////////////////////////////
 
